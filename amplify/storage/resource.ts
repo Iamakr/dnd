@@ -7,7 +7,7 @@ export const storage = defineStorage({
             allow.guest.to(['read']),
             allow.entity('identity').to(['read', 'write', 'delete'])
         ],
-        'pink1/*': [
+        'ink/*': [
             allow.authenticated.to(['read', 'write']),
             allow.guest.to(['read', 'write'])
         ],
